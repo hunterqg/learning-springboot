@@ -1,0 +1,32 @@
+logging:
+  level:
+    root: info
+    org.springframework.web: info
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+spring:
+  devtools:
+    restart:
+      additional-paths: src/main
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    pool:
+      max-active: 5
+      max-wait: -1
+      max-idle: 5
+      min-idel: 0
+      timeout: 0
+  datasource:
+    url: jdbc:mysql://localhost:3306/test_db?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+#    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    properties:
+      hibernate.hbm2ddl.auto: update
+      hibernate.format_sql: false
+      hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
