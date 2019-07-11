@@ -2,6 +2,7 @@ package com.qingao.learning.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -41,4 +42,21 @@ public class IndexController {
         session.setAttribute("sss",value);
         return value;
     }
+
+    @Value("${spring.test.p1}")
+    private  String testP1;
+
+    @Value("${spring.test.p2}")
+    private String testP2;
+    @Value("${spring.test.p3:p3}")
+    private String testP3;
+
+    @Value("${spring.datasource.username:name}")
+    private String uname;
+    @RequestMapping(value = "/prop",method = RequestMethod.GET)
+    public String prop() {
+        return String.format("%s\n%s\n%s & %s",testP1,testP2,testP3,uname);
+    }
+
+
 }

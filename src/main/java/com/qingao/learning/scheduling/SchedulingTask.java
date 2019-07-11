@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class SchedulingTask {
 //    private static Logger logger = LoggerFactory.getLogger(SchedulingTask.class);
-    @Scheduled(cron = "*/15 * * * * *")
+//    @Scheduled(cron = "*/15 * * * * *")
     private void printTask(){
         log.info("running..");
     }
