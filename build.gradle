@@ -1,8 +1,29 @@
-plugins {
-	id 'org.springframework.boot' version '2.1.5.RELEASE'
-	id 'java'
+buildscript {
+	repositories {
+		mavenCentral()
+		maven {
+			url "https://plugins.gradle.org/m2/"
+		}
+	}
+	dependencies {
+		classpath 'gradle.plugin.com.palantir.gradle.docker:gradle-docker:0.19.2'
+	}
+	//skip Test tasks
+	gradle.taskGraph.whenReady {
+		tasks.each { task ->
+			if (task.name.contains("test"))
+			{
+				task.enabled = false
+			}
+		}
+	}
 }
 
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.1.5.RELEASE'
+}
+apply plugin: 'com.palantir.docker'
 apply plugin: 'io.spring.dependency-management'
 
 group = 'com.qingao'
@@ -13,6 +34,18 @@ targetCompatibility = '1.8'
 repositories {
 	mavenCentral()
 }
+bootJar{
+	baseName = 'learning'
+	version = "${project.version}"
+}
+
+docker {
+	dependsOn(build)
+    name "${project.group}/${bootJar.baseName}"
+	files bootJar.archivePath
+	buildArgs(['JAR_FILE': "${bootJar.archiveName}"])
+}
+
 dependencies {
 	compileOnly 'org.projectlombok:lombok:1.18.8'
     annotationProcessor 'org.projectlombok:lombok:1.18.8'
@@ -22,8 +55,9 @@ dependencies {
 	compile 'org.springframework.boot:spring-boot-starter-web'
 	compile("org.springframework.boot:spring-boot-starter-data-redis")
 	compile("org.springframework.boot:spring-boot-starter-data-jpa")
+    compile("org.springframework.boot:spring-boot-starter-actuator")
 	compile("mysql:mysql-connector-java")
-    
+    compile("com.baomidou:mybatis-plus-boot-starter:3.2.0")
 	compile("org.springframework.session:spring-session-data-redis")
 	compile("org.springframework.security:spring-security-web") {
 		setTransitive(false)

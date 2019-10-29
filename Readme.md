@@ -21,10 +21,7 @@
 
 *斜体*
 
-`
-    老子写的代码 
-    if you can get this, try it;
-   
+` 老写的代码 if you can get this, try it;
 `
 
 - 表格
