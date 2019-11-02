@@ -57,12 +57,14 @@ dependencies {
 	compile("org.springframework.boot:spring-boot-starter-data-jpa")
     compile("org.springframework.boot:spring-boot-starter-actuator")
 	compile("mysql:mysql-connector-java")
-    compile("com.baomidou:mybatis-plus-boot-starter:3.2.0")
 	compile("org.springframework.session:spring-session-data-redis")
 	compile("org.springframework.security:spring-security-web") {
 		setTransitive(false)
 	}
-	
+	compile("com.baomidou:mybatis-plus-boot-starter:3.2.0")
+	compile("com.baomidou:mybatis-plus-generator:3.2.0")
+	compile("org.apache.velocity:velocity-engine-core:2.1")
+
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
