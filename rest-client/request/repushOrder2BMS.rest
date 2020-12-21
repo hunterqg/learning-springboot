@@ -1,0 +1,94 @@
+POST
+https://op.linkedcare.cn/eop/business/order/pushOrderManual
+#header
+@timestamp: {TS_yyyy-MM-dd HH:mm:ss}
+@Content-Type: application/json
+@Authorization: eyJhbGciOiJSUzI1NiIsImtpZCI6IjU0MTFjM2JkYWVmYzM0ZmZlMTI3Y2NjYjdjNjczZmMxIiwidHlwIjoiSldUIn0.eyJuYmYiOjE2MDM0MzExMDYsImV4cCI6MTYwMzQ0NTUwNiwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1hcHAubGlua2VkY2FyZS5jbjoxMDA4MSIsImF1ZCI6WyJodHRwczovL2lkZW50aXR5LWFwcC5saW5rZWRjYXJlLmNuOjEwMDgxL3Jlc291cmNlcyIsIm1hbGwiXSwiY2xpZW50X2lkIjoidHJhZGVtYW5hZ2UiLCJzdWIiOiIwOGQ3MGFlMy02OTI3LTM0NDMtMDkxOC0wMTQwYTAxNjk2M2QiLCJhdXRoX3RpbWUiOjE2MDMwNzI1MzksImlkcCI6Ind4IiwiaWRfdHlwZSI6IkxpbmtlZGNhcmUiLCJlbWFpbCI6InpoZS5qaWFAbGlua2VkY2FyZS5jbiIsImJpel9saW5lIjoi5oC76YOoIiwibmFtZSI6Iui0vuWWhiIsInJvbGUiOiJtYWxsLkdMWSIsInJvbGVzIjoiW3tcIkRlcGFydG1lbnRJZFwiOlwiMVwiLFwiUG9zaXRpb25JZFwiOlwiMVwiLFwiUm9sZU5hbWVcIjpcImRpcmVjdG9yeVNlcnZpY2UucmVhZHdyaXRlXCJ9LHtcIkRlcGFydG1lbnRJZFwiOlwiMVwiLFwiUG9zaXRpb25JZFwiOlwiMVwiLFwiUm9sZU5hbWVcIjpcImRpcmVjdG9yeVNlcnZpY2UuaWRlbnRpdHlNYW5hZ2VcIn0se1wiRGVwYXJ0bWVudElkXCI6XCIxXCIsXCJQb3NpdGlvbklkXCI6XCIxXCIsXCJSb2xlTmFtZVwiOlwibWFsbC5HTFlcIn0se1wiRGVwYXJ0bWVudElkXCI6XCIxXCIsXCJQb3NpdGlvbklkXCI6XCIxXCIsXCJSb2xlTmFtZVwiOlwiYm1zLkFkbWluXCJ9XSIsInNjb3BlIjpbInByb2ZpbGUiLCJvcGVuaWQiLCJtYWxsLnVzZXIiXSwiYW1yIjpbImV4dGVybmFsIl19.gOHI4UiLtjMZAkoHrAze27R2snCQZotWizcysILrmMIg37LMU7CW7wc1lPDrEUCPqUDbizRZ1GBHoO6nGHeJjUazBzqnXcY8j2A_EIgr8IZIh1yiyR8ieP6s89pBKHkfQ0UGnncDoL-BDkQOCG6YHtrP61E2vb0MDkci_frkZpnXiIgMlxkwp1IosGXUGg8O2VZJlDcxQuuNFj-z3y7LIcyNt6n_c_q6Sdf9OcbFiHFbjcjugS5Ic58Rde1DCwkipqX_TwZMB0Bvl-dpWaTVJdK3T0F-UBi5Geb_zUJR_luFYfxQUmtODyq0L2HH9JHwJXQ6MP6FTEcjuZXyBYEdUQ
+#body
+[
+{"sn":"12012161710511477954","type":2},
+{"sn":"12012151449437400295","type":2},
+{"sn":"12012161027095505278","type":2},
+{"sn":"12012161545533819484","type":2},
+{"sn":"12012161313030572838","type":2},
+{"sn":"12012180949120488483","type":2},
+{"sn":"12012181318045090094","type":2},
+{"sn":"12012161438372625375","type":2},
+{"sn":"12011131508165796536","type":2},
+{"sn":"12011151106044455979","type":2},
+{"sn":"12011161354327665715","type":2},
+{"sn":"12011161347201247395","type":2},
+{"sn":"12011141813348510074","type":2},
+{"sn":"12011111343162057280","type":2},
+{"sn":"12011101406172878439","type":2},
+{"sn":"12011031130291422883","type":2},
+{"sn":"12011130916253570329","type":2},
+{"sn":"12011141933379705496","type":2},
+{"sn":"12011141648517329102","type":2},
+{"sn":"12011141335515548849","type":2},
+{"sn":"12011161136057080643","type":2},
+{"sn":"12011152032324887817","type":2},
+{"sn":"12011141125281932262","type":2},
+{"sn":"12011121516370436734","type":2},
+{"sn":"12011111332442472204","type":2},
+{"sn":"12011161026201093058","type":2},
+{"sn":"12011151632580375588","type":2},
+{"sn":"12011151515465761794","type":2},
+{"sn":"12011121205484620154","type":2},
+{"sn":"12011102223282830972","type":2}
+]
+%%%
+# Duration: 2457 ms
+# POST
+# https://op.linkedcare.cn/eop/business/order/pushOrderManual
+# Headers
+# @Authorization: eyJhbGciOiJSUzI1NiIsImtpZCI6IjU0MTFjM2JkYWVmYzM0ZmZlMTI3Y2NjYjdjNjczZmMxIiwidHlwIjoiSldUIn0.eyJuYmYiOjE2MDM0MzExMDYsImV4cCI6MTYwMzQ0NTUwNiwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1hcHAubGlua2VkY2FyZS5jbjoxMDA4MSIsImF1ZCI6WyJodHRwczovL2lkZW50aXR5LWFwcC5saW5rZWRjYXJlLmNuOjEwMDgxL3Jlc291cmNlcyIsIm1hbGwiXSwiY2xpZW50X2lkIjoidHJhZGVtYW5hZ2UiLCJzdWIiOiIwOGQ3MGFlMy02OTI3LTM0NDMtMDkxOC0wMTQwYTAxNjk2M2QiLCJhdXRoX3RpbWUiOjE2MDMwNzI1MzksImlkcCI6Ind4IiwiaWRfdHlwZSI6IkxpbmtlZGNhcmUiLCJlbWFpbCI6InpoZS5qaWFAbGlua2VkY2FyZS5jbiIsImJpel9saW5lIjoi5oC76YOoIiwibmFtZSI6Iui0vuWWhiIsInJvbGUiOiJtYWxsLkdMWSIsInJvbGVzIjoiW3tcIkRlcGFydG1lbnRJZFwiOlwiMVwiLFwiUG9zaXRpb25JZFwiOlwiMVwiLFwiUm9sZU5hbWVcIjpcImRpcmVjdG9yeVNlcnZpY2UucmVhZHdyaXRlXCJ9LHtcIkRlcGFydG1lbnRJZFwiOlwiMVwiLFwiUG9zaXRpb25JZFwiOlwiMVwiLFwiUm9sZU5hbWVcIjpcImRpcmVjdG9yeVNlcnZpY2UuaWRlbnRpdHlNYW5hZ2VcIn0se1wiRGVwYXJ0bWVudElkXCI6XCIxXCIsXCJQb3NpdGlvbklkXCI6XCIxXCIsXCJSb2xlTmFtZVwiOlwibWFsbC5HTFlcIn0se1wiRGVwYXJ0bWVudElkXCI6XCIxXCIsXCJQb3NpdGlvbklkXCI6XCIxXCIsXCJSb2xlTmFtZVwiOlwiYm1zLkFkbWluXCJ9XSIsInNjb3BlIjpbInByb2ZpbGUiLCJvcGVuaWQiLCJtYWxsLnVzZXIiXSwiYW1yIjpbImV4dGVybmFsIl19.gOHI4UiLtjMZAkoHrAze27R2snCQZotWizcysILrmMIg37LMU7CW7wc1lPDrEUCPqUDbizRZ1GBHoO6nGHeJjUazBzqnXcY8j2A_EIgr8IZIh1yiyR8ieP6s89pBKHkfQ0UGnncDoL-BDkQOCG6YHtrP61E2vb0MDkci_frkZpnXiIgMlxkwp1IosGXUGg8O2VZJlDcxQuuNFj-z3y7LIcyNt6n_c_q6Sdf9OcbFiHFbjcjugS5Ic58Rde1DCwkipqX_TwZMB0Bvl-dpWaTVJdK3T0F-UBi5Geb_zUJR_luFYfxQUmtODyq0L2HH9JHwJXQ6MP6FTEcjuZXyBYEdUQ
+# @timestamp: {TS_yyyy-MM-dd HH:mm:ss}
+# @Content-Type: application/json
+# Body
+# [
+# {"sn":"12012161710511477954","type":2},
+# {"sn":"12012151449437400295","type":2},
+# {"sn":"12012161027095505278","type":2},
+# {"sn":"12012161545533819484","type":2},
+# {"sn":"12012161313030572838","type":2},
+# {"sn":"12012180949120488483","type":2},
+# {"sn":"12012181318045090094","type":2},
+# {"sn":"12012161438372625375","type":2},
+# {"sn":"12011131508165796536","type":2},
+# {"sn":"12011151106044455979","type":2},
+# {"sn":"12011161354327665715","type":2},
+# {"sn":"12011161347201247395","type":2},
+# {"sn":"12011141813348510074","type":2},
+# {"sn":"12011111343162057280","type":2},
+# {"sn":"12011101406172878439","type":2},
+# {"sn":"12011031130291422883","type":2},
+# {"sn":"12011130916253570329","type":2},
+# {"sn":"12011141933379705496","type":2},
+# {"sn":"12011141648517329102","type":2},
+# {"sn":"12011141335515548849","type":2},
+# {"sn":"12011161136057080643","type":2},
+# {"sn":"12011152032324887817","type":2},
+# {"sn":"12011141125281932262","type":2},
+# {"sn":"12011121516370436734","type":2},
+# {"sn":"12011111332442472204","type":2},
+# {"sn":"12011161026201093058","type":2},
+# {"sn":"12011151632580375588","type":2},
+# {"sn":"12011151515465761794","type":2},
+# {"sn":"12011121205484620154","type":2},
+# {"sn":"12011102223282830972","type":2}
+# ]
+
+
+# status 200
+
+@date: Sat, 19 Dec 2020 09:46:29 GMT
+@content-type: text/html;charset=UTF-8
+@content-length: 37
+@access-control-allow-origin: *
+@access-control-allow-methods: POST, GET, OPTIONS
+@access-control-max-age: 3600
+@access-control-allow-headers: x-requested-with, Authorization, content-type
+@access-control-allow-credentials: true
+
+{"msg":"推送成功","code":"A0000"}

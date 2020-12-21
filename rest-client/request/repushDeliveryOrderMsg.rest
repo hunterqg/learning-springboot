@@ -1,0 +1,64 @@
+POST
+{baseUrl}/deliveryOrder/repushMsg
+#header
+@timestamp: {TS_yyyy-MM-dd HH:mm:ss}
+@Content-Type: application/json
+@Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjUyMjE2YTFmM2E0NWRlMjlmMzk4YTVhYWZiYTBiNmNhIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1ODQzMjY1MzAsImV4cCI6MTU4NDM2OTczMCwiaXNzIjoiaHR0cHM6Ly9vcGVucGxhdGZvcm0tYXBwLmxjdGVzdC5jbjoxMTAwMSIsImF1ZCI6WyJodHRwczovL29wZW5wbGF0Zm9ybS1hcHAubGN0ZXN0LmNuOjExMDAxL3Jlc291cmNlcyIsImJtcyIsImRpbUNvbm5lY3RvciIsImRpcmVjdG9yeVNlcnZpY2UiLCJoZWFsdGhJbnN1cmFuY2UiLCJodWlmdUNvbm5lY3RvciIsImluc3VyYW5jZVNlcnZpY2UiLCJqb2JtZGNvbm5lY3RvciIsIm1hbGwiLCJtZWRpY2FyZSIsIm9wZW5QbGF0Zm9ybSIsIm9yZGVyU2VydmljZSIsInBvaW50c1NlcnZpY2UiXSwiY2xpZW50X2lkIjoic2FhcyIsIm9yZ19pZCI6IjA4ZDczZGI0LTIyOGYtOTIwNC0xMjYwLTlhNDBmZDZhNGM3MyIsIm9yZ19uYW1lIjoi5rWL6K-VLTAwMSIsIm9yZ190ZW5hbnRpZCI6Ijk5ZGVlYWJlLWNkZDQtNDYyNy1hMDY1LTJlN2FkYmFkZDAyYyIsIm9yZ19vZmZpY2VpZCI6Ijc1NyIsImlkX3R5cGUiOiJDdXN0b21lciIsImlkZW50aXR5VHlwZSI6Ik9yZ2FuaXphdGlvbiIsInBlcnNvbl9pZCI6IjI0NTgiLCJwZXJzb25fbmFtZSI6IuWFrOWPuOeuoeeQhuWRmCIsInBlcnNvbl90eXBlIjoic2FhcyIsInNjb3BlIjpbImJtcy5zYWFzIiwiZGltQ29ubmVjdG9yLnNhYXMiLCJkaXJlY3RvcnlTZXJ2aWNlLnJlYWR3cml0ZSIsImhlYWx0aEluc3VyYW5jZS5oaXMiLCJodWlmdUNvbm5lY3Rvci5oaXMiLCJpbnN1cmFuY2VTZXJ2aWNlLmhpcyIsImpvYm1kY29ubmVjdG9yLmJtcyIsIm1hbGwiLCJtZWRpY2FyZS5oaXMiLCJvcGVuUGxhdGZvcm0iLCJvcmRlclNlcnZpY2UuaGlzQWNjZXNzIiwicG9pbnRzU2VydmljZSJdfQ.gX2GW8_DBg2ON-yyoc0NKxg7e4F9DB3T2uf9eKkB_58vRsRWrJqKRIzfm9kqnFKyqKt9x4OlSh4A-FZO9AguLZN0cq8Oovv_Rq_6L_3GX0fXUjbep4wbxrckQ07ezAnocDNsNCheF3JYQ1BfClxNaBWmUAlPoHAIyTm-GPBehZFI1VSPnoOG234vCTZSKs8xTc0gy6tsW38o0mcOIBD9Q4uhQCilPQ_fECk4Y6gs0Y5qnj-xv6JJTS6dXFYWC8DQNIK2Z7A8MV4mlhrHgNOl3wTjOcpNNdpiL8huohBHLIaoqcIVEwjphZ-MgcgFAqDaRnQRe1h57ArZ7Gx3sU5C6g
+#body
+{"dataSn":"320110614293294363384","msgType":4,"payLoad":"{\"data\":{\"applyProofPicture\":\"\",\"applyReason\":\"生锈\",\"applyTime\":{\"date\":6,\"day\":5,\"hours\":14,\"minutes\":29,\"month\":10,\"seconds\":33,\"time\":1604644173000,\"timezoneOffset\":-480,\"year\":120},\"applyUserId\":\"12c2c5ba-b491-44f2-9738-488775cc1f68:82:3879\",\"availableRefundAmount\":0,\"completeTime\":{},\"contact\":\"邓波利\",\"customerId\":\"ee90157a-de18-4e81-883f-788ad51ce050\",\"customerReturnTime\":{\"date\":12,\"day\":4,\"hours\":18,\"minutes\":7,\"month\":10,\"seconds\":3,\"time\":1605175623000,\"timezoneOffset\":-480,\"year\":120},\"dataSource\":1,\"deductCoupon\":0,\"deductPoint\":0,\"dictionaryApplyReason\":\"质量问题\",\"exchangeLogisticId\":0,\"exchangeLogisticInfoList\":[],\"exchangeTime\":{},\"freightAmount\":0,\"freightDiscountAmount\":0,\"giftServicesStatus\":0,\"goodsImage\":\"\",\"goodsLcCode\":\"2200001429001\",\"goodsName\":\"天美 小日月钳\",\"goodsNum\":1,\"goodsSharedPrice\":0,\"goodsSkuId\":4051,\"goodsSpecification\":\"607-101 Tweed 钳\",\"id\":41339,\"isTrusteeship\":0,\"itemId\":942440,\"logisticId\":324064,\"logisticName\":\"\",\"mainTrusteeshipFlag\":0,\"mobile\":\"18161913113\",\"officeId\":\"82\",\"officeName\":\"西安泰康拜博口腔医院管理有限公司未央口腔门诊部\",\"orderSn\":\"12010281144544683456\",\"orderType\":1,\"parentId\":0,\"parentSn\":\"\",\"purchaseProperty\":0,\"receiverAddress\":\"陕西省西安市未央区凤城五路海荣豪家花园北广场外铺 拜博九二零口腔医院未央门诊部\",\"refundAmount\":0,\"refundGoodsStatus\":0,\"refundTime\":{},\"returnLogisticInfoList\":[],\"reviewName\":\"yiting.liang@linkedcare.cn\",\"reviewNoPassReason\":\"\",\"reviewTime\":{\"date\":6,\"day\":5,\"hours\":15,\"minutes\":2,\"month\":10,\"seconds\":49,\"time\":1604646169000,\"timezoneOffset\":-480,\"year\":120},\"serviceSn\":\"32011061429329436338\",\"serviceStatus\":24,\"serviceType\":2,\"settlePrice\":0,\"skuType\":0,\"storageReceiptTime\":{\"date\":13,\"day\":5,\"hours\":10,\"minutes\":5,\"month\":10,\"seconds\":1,\"time\":1605233101000,\"timezoneOffset\":-480,\"year\":120},\"storeId\":5,\"suggestRefundAmount\":0,\"tenantId\":\"12c2c5ba-b491-44f2-9738-488775cc1f68\",\"unit\":\"\",\"usingVoucher\":0,\"voucherSn\":\"\",\"logisticNo\":\"\"}}"}
+%%%
+# Duration: 195 ms
+# POST
+# https://op.linkedcare.cn/eop/deliveryOrder/repushMsg
+# Headers
+# @Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjUyMjE2YTFmM2E0NWRlMjlmMzk4YTVhYWZiYTBiNmNhIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1ODQzMjY1MzAsImV4cCI6MTU4NDM2OTczMCwiaXNzIjoiaHR0cHM6Ly9vcGVucGxhdGZvcm0tYXBwLmxjdGVzdC5jbjoxMTAwMSIsImF1ZCI6WyJodHRwczovL29wZW5wbGF0Zm9ybS1hcHAubGN0ZXN0LmNuOjExMDAxL3Jlc291cmNlcyIsImJtcyIsImRpbUNvbm5lY3RvciIsImRpcmVjdG9yeVNlcnZpY2UiLCJoZWFsdGhJbnN1cmFuY2UiLCJodWlmdUNvbm5lY3RvciIsImluc3VyYW5jZVNlcnZpY2UiLCJqb2JtZGNvbm5lY3RvciIsIm1hbGwiLCJtZWRpY2FyZSIsIm9wZW5QbGF0Zm9ybSIsIm9yZGVyU2VydmljZSIsInBvaW50c1NlcnZpY2UiXSwiY2xpZW50X2lkIjoic2FhcyIsIm9yZ19pZCI6IjA4ZDczZGI0LTIyOGYtOTIwNC0xMjYwLTlhNDBmZDZhNGM3MyIsIm9yZ19uYW1lIjoi5rWL6K-VLTAwMSIsIm9yZ190ZW5hbnRpZCI6Ijk5ZGVlYWJlLWNkZDQtNDYyNy1hMDY1LTJlN2FkYmFkZDAyYyIsIm9yZ19vZmZpY2VpZCI6Ijc1NyIsImlkX3R5cGUiOiJDdXN0b21lciIsImlkZW50aXR5VHlwZSI6Ik9yZ2FuaXphdGlvbiIsInBlcnNvbl9pZCI6IjI0NTgiLCJwZXJzb25fbmFtZSI6IuWFrOWPuOeuoeeQhuWRmCIsInBlcnNvbl90eXBlIjoic2FhcyIsInNjb3BlIjpbImJtcy5zYWFzIiwiZGltQ29ubmVjdG9yLnNhYXMiLCJkaXJlY3RvcnlTZXJ2aWNlLnJlYWR3cml0ZSIsImhlYWx0aEluc3VyYW5jZS5oaXMiLCJodWlmdUNvbm5lY3Rvci5oaXMiLCJpbnN1cmFuY2VTZXJ2aWNlLmhpcyIsImpvYm1kY29ubmVjdG9yLmJtcyIsIm1hbGwiLCJtZWRpY2FyZS5oaXMiLCJvcGVuUGxhdGZvcm0iLCJvcmRlclNlcnZpY2UuaGlzQWNjZXNzIiwicG9pbnRzU2VydmljZSJdfQ.gX2GW8_DBg2ON-yyoc0NKxg7e4F9DB3T2uf9eKkB_58vRsRWrJqKRIzfm9kqnFKyqKt9x4OlSh4A-FZO9AguLZN0cq8Oovv_Rq_6L_3GX0fXUjbep4wbxrckQ07ezAnocDNsNCheF3JYQ1BfClxNaBWmUAlPoHAIyTm-GPBehZFI1VSPnoOG234vCTZSKs8xTc0gy6tsW38o0mcOIBD9Q4uhQCilPQ_fECk4Y6gs0Y5qnj-xv6JJTS6dXFYWC8DQNIK2Z7A8MV4mlhrHgNOl3wTjOcpNNdpiL8huohBHLIaoqcIVEwjphZ-MgcgFAqDaRnQRe1h57ArZ7Gx3sU5C6g
+# @timestamp: 2020-12-19 18:25:40
+# @Content-Type: application/json
+# Body
+# {"dataSn":"320110614293294363384","msgType":4,"payLoad":"{\"data\":{\"applyProofPicture\":\"\",\"applyReason\":\"生锈\",\"applyTime\":{\"date\":6,\"day\":5,\"hours\":14,\"minutes\":29,\"month\":10,\"seconds\":33,\"time\":1604644173000,\"timezoneOffset\":-480,\"year\":120},\"applyUserId\":\"12c2c5ba-b491-44f2-9738-488775cc1f68:82:3879\",\"availableRefundAmount\":0,\"completeTime\":{},\"contact\":\"邓波利\",\"customerId\":\"ee90157a-de18-4e81-883f-788ad51ce050\",\"customerReturnTime\":{\"date\":12,\"day\":4,\"hours\":18,\"minutes\":7,\"month\":10,\"seconds\":3,\"time\":1605175623000,\"timezoneOffset\":-480,\"year\":120},\"dataSource\":1,\"deductCoupon\":0,\"deductPoint\":0,\"dictionaryApplyReason\":\"质量问题\",\"exchangeLogisticId\":0,\"exchangeLogisticInfoList\":[],\"exchangeTime\":{},\"freightAmount\":0,\"freightDiscountAmount\":0,\"giftServicesStatus\":0,\"goodsImage\":\"\",\"goodsLcCode\":\"2200001429001\",\"goodsName\":\"天美 小日月钳\",\"goodsNum\":1,\"goodsSharedPrice\":0,\"goodsSkuId\":4051,\"goodsSpecification\":\"607-101 Tweed 钳\",\"id\":41339,\"isTrusteeship\":0,\"itemId\":942440,\"logisticId\":324064,\"logisticName\":\"\",\"mainTrusteeshipFlag\":0,\"mobile\":\"18161913113\",\"officeId\":\"82\",\"officeName\":\"西安泰康拜博口腔医院管理有限公司未央口腔门诊部\",\"orderSn\":\"12010281144544683456\",\"orderType\":1,\"parentId\":0,\"parentSn\":\"\",\"purchaseProperty\":0,\"receiverAddress\":\"陕西省西安市未央区凤城五路海荣豪家花园北广场外铺 拜博九二零口腔医院未央门诊部\",\"refundAmount\":0,\"refundGoodsStatus\":0,\"refundTime\":{},\"returnLogisticInfoList\":[],\"reviewName\":\"yiting.liang@linkedcare.cn\",\"reviewNoPassReason\":\"\",\"reviewTime\":{\"date\":6,\"day\":5,\"hours\":15,\"minutes\":2,\"month\":10,\"seconds\":49,\"time\":1604646169000,\"timezoneOffset\":-480,\"year\":120},\"serviceSn\":\"32011061429329436338\",\"serviceStatus\":24,\"serviceType\":2,\"settlePrice\":0,\"skuType\":0,\"storageReceiptTime\":{\"date\":13,\"day\":5,\"hours\":10,\"minutes\":5,\"month\":10,\"seconds\":1,\"time\":1605233101000,\"timezoneOffset\":-480,\"year\":120},\"storeId\":5,\"suggestRefundAmount\":0,\"tenantId\":\"12c2c5ba-b491-44f2-9738-488775cc1f68\",\"unit\":\"\",\"usingVoucher\":0,\"voucherSn\":\"\",\"logisticNo\":\"\"}}"}
+
+
+# status 500
+
+@date: Sat, 19 Dec 2020 10:25:39 GMT
+@content-type: text/html;charset=utf-8
+@access-control-allow-origin: *
+@access-control-allow-methods: POST, GET, OPTIONS
+@access-control-max-age: 3600
+@access-control-allow-headers: x-requested-with, Authorization, content-type
+@access-control-allow-credentials: true
+@content-language: en
+@vary: Accept-Encoding
+
+<!DOCTYPE html><html><head><title>Apache Tomcat/8.5.8 - Error report</title><style type="text/css">H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}.line {height: 1px; background-color: #525D76; border: none;}</style> </head><body><h1>HTTP Status 500 - Handler processing failed; nested exception is java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config</h1><div class="line"></div><p><b>type</b> Exception report</p><p><b>message</b> <u>Handler processing failed; nested exception is java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config</u></p><p><b>description</b> <u>The server encountered an internal error that prevented it from fulfilling this request.</u></p><p><b>exception</b></p><pre>org.springframework.web.util.NestedServletException: Handler processing failed; nested exception is java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+	org.springframework.web.servlet.DispatcherServlet.triggerAfterCompletionWithError(DispatcherServlet.java:1305)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:979)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:869)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	com.linkedcare.filter.CrossSiteFilter.doFilter(CrossSiteFilter.java:41)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>root cause</b></p><pre>java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+	org.springframework.web.servlet.support.JstlUtils.exposeLocalizationContext(JstlUtils.java:101)
+	org.springframework.web.servlet.view.JstlView.exposeHelpers(JstlView.java:135)
+	org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:142)
+	org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1246)
+	org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1029)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:973)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:869)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	com.linkedcare.filter.CrossSiteFilter.doFilter(CrossSiteFilter.java:41)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>note</b> <u>The full stack trace of the root cause is available in the Apache Tomcat/8.5.8 logs.</u></p><hr class="line"><h3>Apache Tomcat/8.5.8</h3></body></html>

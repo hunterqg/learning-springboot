@@ -1,0 +1,25 @@
+POST
+http://121.196.202.30/eop/sync/pushSyncMsg2?topic=uat_mall_directory
+
+#body
+{"source":"bms","event":"customer","tenantId":"bms","officeId":"62113","customerId":"08d8606f-583e-7e45-7916-bbc607f15b14","timestamp":1600941064,"body":{"id":62113,"code":"LC202092401720","name":"测试UAT客户V141","accountId":"08d8606f-583e-7e45-7916-bbc607f15b14","tenantId":"bms","officeId":"62113","tenantName":null,"officeName":null,"saasCode":null,"address":"测试UAT客户V14","regionName":"华北","provinceName":"北京市","cityName":"北京市","districtName":"朝阳区","customerTypeName":"企业/单店","mechanismTypeName":"诊所","salesPath":"耗材商城-销售-有材一区-北京","userType":"","salesPerson":null,"salesPersonEmail":null,"cserPrsnName":null,"cserPrsnEmail":null,"signed":0,"consumablesDeptId":0,"consumablesPerson":null,"consumablesPersonEmail":null,"medicalBusinesslicenseNo":null,"radiologicaldiagnosisNo":null,"businesslicenseNo":null,"medicalBusinesslicenseUrl":"","radiologicaldiagnosisUrl":"","businesslicenseUrl":"","physicianlicenseNo":"","physicianlicenseUrl":"","memebership":0,"membershipName":null,"customercategroy":0}}
+%%%
+# Duration: 159 ms
+# POST
+# http://121.196.202.30/eop/sync/pushSyncMsg2?topic=uat_mall_directory
+# Body
+# {"source":"bms","event":"customer","tenantId":"bms","officeId":"62113","customerId":"08d8606f-583e-7e45-7916-bbc607f15b14","timestamp":1600941064,"body":{"id":62113,"code":"LC202092401720","name":"测试UAT客户V141","accountId":"08d8606f-583e-7e45-7916-bbc607f15b14","tenantId":"bms","officeId":"62113","tenantName":null,"officeName":null,"saasCode":null,"address":"测试UAT客户V14","regionName":"华北","provinceName":"北京市","cityName":"北京市","districtName":"朝阳区","customerTypeName":"企业/单店","mechanismTypeName":"诊所","salesPath":"耗材商城-销售-有材一区-北京","userType":"","salesPerson":null,"salesPersonEmail":null,"cserPrsnName":null,"cserPrsnEmail":null,"signed":0,"consumablesDeptId":0,"consumablesPerson":null,"consumablesPersonEmail":null,"medicalBusinesslicenseNo":null,"radiologicaldiagnosisNo":null,"businesslicenseNo":null,"medicalBusinesslicenseUrl":"","radiologicaldiagnosisUrl":"","businesslicenseUrl":"","physicianlicenseNo":"","physicianlicenseUrl":"","memebership":0,"membershipName":null,"customercategroy":0}}
+
+
+# status 200
+
+@Access-Control-Allow-Origin: *
+@Access-Control-Allow-Methods: POST, GET, OPTIONS
+@Access-Control-Max-Age: 3600
+@Access-Control-Allow-Headers: x-requested-with,Authorization
+@Access-Control-Allow-Credentials: true
+@Content-Type: text/plain;charset=ISO-8859-1
+@Content-Length: 7
+@Date: Sun, 27 Sep 2020 07:34:48 GMT
+
+Success

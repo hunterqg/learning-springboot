@@ -1,0 +1,45 @@
+POST
+{baseUrl}business/order/auditServiceOrder
+#https://etradetest.linkedcare.cn/etrade/business/order/auditServiceOrder
+#header
+@timestamp: {TS_yyyy-MM-dd HH:mm:ss}
+@Content-Type: application/json
+@Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjUyMjE2YTFmM2E0NWRlMjlmMzk4YTVhYWZiYTBiNmNhIiwidHlwIjoiSldUIn0.eyJuYmYiOjE2MDMyNDY5NzEsImV4cCI6MTYwMzQxOTc3MSwiaXNzIjoiaHR0cHM6Ly9vcGVucGxhdGZvcm0tYXBwLmxjdGVzdC5jbjoxMTAwMSIsImF1ZCI6WyJodHRwczovL29wZW5wbGF0Zm9ybS1hcHAubGN0ZXN0LmNuOjExMDAxL3Jlc291cmNlcyIsImJtcyIsImRpbUNvbm5lY3RvciIsImRpcmVjdG9yeVNlcnZpY2UiLCJlc2lnbiIsImhlYWx0aEluc3VyYW5jZSIsImh1aWZ1Q29ubmVjdG9yIiwiaW5zdXJhbmNlU2VydmljZSIsImpvYm1kY29ubmVjdG9yIiwibGlua2VkeC1wcm9kdWN0LXRvb2wiLCJtYWxsIiwibWVkaWNhcmUiLCJvcGVuUGxhdGZvcm0iLCJvcmRlclNlcnZpY2UiLCJwb2ludHNTZXJ2aWNlIl0sImNsaWVudF9pZCI6InNhYXMiLCJvcmdfaWQiOiIwOGQ3M2RiNC0yMjhmLTkyMDQtMTI2MC05YTQwZmQ2YTRjNzMiLCJvcmdfbmFtZSI6Iua1i-ivlS0wMDEiLCJvcmdfdGVuYW50aWQiOiI5OWRlZWFiZS1jZGQ0LTQ2MjctYTA2NS0yZTdhZGJhZGQwMmMiLCJvcmdfb2ZmaWNlaWQiOiI3NTciLCJpZF90eXBlIjoiQ3VzdG9tZXIiLCJpZGVudGl0eVR5cGUiOiJPcmdhbml6YXRpb24iLCJwZXJzb25faWQiOiIyNDU4IiwicGVyc29uX25hbWUiOiLlhazlj7jnrqHnkIblkZgiLCJwZXJzb25fdHlwZSI6InNhYXMiLCJzY29wZSI6WyJibXMuc2FhcyIsImRpbUNvbm5lY3Rvci5zYWFzIiwiZGlyZWN0b3J5U2VydmljZS5yZWFkd3JpdGUiLCJlc2lnbi5jbGllbnQiLCJlc2lnbi5wcm92aWRlciIsImhlYWx0aEluc3VyYW5jZS5oaXMiLCJodWlmdUNvbm5lY3Rvci5oaXMiLCJpbnN1cmFuY2VTZXJ2aWNlLmhpcyIsImpvYm1kY29ubmVjdG9yLmJtcyIsImxpbmtlZHguY2xpZW50IiwibWFsbCIsIm1lZGljYXJlLmhpcyIsIm9wZW5QbGF0Zm9ybSIsIm9yZGVyU2VydmljZS5oaXNBY2Nlc3MiLCJwb2ludHNTZXJ2aWNlIl19.f9VeKlN8TStLUxXfspMoOgCL6A7A3jNoW4pmbAh8YSEKj-Qatk-JZosS7dhfhR-ygsKuWvd0jezp617p2XuFwy8CtW3970BJSTrDZ2iplhMDV3Hf2JH3kUo-wD4gtM4UYQVv5UD62EYWX-ac9q2BmzWTF9PWwpkc6SAmb1-TK0C8CmQS4MaxV6_GHAkr3GKnT3Rd0NlAh11Bxk-FMUzQiUmUlrHIVafioq91FjMrV2Yo2Cfj0l0ilP6IsKFXOTOTjdNfdxXECIVkFx_d0h6LxUp8WdHZg2EnnGCJ4GqelOWVKMVGmiUP5Cc7hCCh84VQer0oHmxyuPO8FdfV5syLUw
+#body
+{
+                "serviceSn":"319042514472975171398",
+                "serviceStatus":"11",
+               "reviewName":"yexiao",
+                "reviewTime":"2019-04-25 15:07:17",
+                "refundAmount":"123.11"
+            }
+%%%
+# Duration: 512 ms
+# POST
+# https://etradetest.linkedcare.cn/etrade/business/order/auditServiceOrder
+# Headers
+# @Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjUyMjE2YTFmM2E0NWRlMjlmMzk4YTVhYWZiYTBiNmNhIiwidHlwIjoiSldUIn0.eyJuYmYiOjE2MDMyNDY5NzEsImV4cCI6MTYwMzQxOTc3MSwiaXNzIjoiaHR0cHM6Ly9vcGVucGxhdGZvcm0tYXBwLmxjdGVzdC5jbjoxMTAwMSIsImF1ZCI6WyJodHRwczovL29wZW5wbGF0Zm9ybS1hcHAubGN0ZXN0LmNuOjExMDAxL3Jlc291cmNlcyIsImJtcyIsImRpbUNvbm5lY3RvciIsImRpcmVjdG9yeVNlcnZpY2UiLCJlc2lnbiIsImhlYWx0aEluc3VyYW5jZSIsImh1aWZ1Q29ubmVjdG9yIiwiaW5zdXJhbmNlU2VydmljZSIsImpvYm1kY29ubmVjdG9yIiwibGlua2VkeC1wcm9kdWN0LXRvb2wiLCJtYWxsIiwibWVkaWNhcmUiLCJvcGVuUGxhdGZvcm0iLCJvcmRlclNlcnZpY2UiLCJwb2ludHNTZXJ2aWNlIl0sImNsaWVudF9pZCI6InNhYXMiLCJvcmdfaWQiOiIwOGQ3M2RiNC0yMjhmLTkyMDQtMTI2MC05YTQwZmQ2YTRjNzMiLCJvcmdfbmFtZSI6Iua1i-ivlS0wMDEiLCJvcmdfdGVuYW50aWQiOiI5OWRlZWFiZS1jZGQ0LTQ2MjctYTA2NS0yZTdhZGJhZGQwMmMiLCJvcmdfb2ZmaWNlaWQiOiI3NTciLCJpZF90eXBlIjoiQ3VzdG9tZXIiLCJpZGVudGl0eVR5cGUiOiJPcmdhbml6YXRpb24iLCJwZXJzb25faWQiOiIyNDU4IiwicGVyc29uX25hbWUiOiLlhazlj7jnrqHnkIblkZgiLCJwZXJzb25fdHlwZSI6InNhYXMiLCJzY29wZSI6WyJibXMuc2FhcyIsImRpbUNvbm5lY3Rvci5zYWFzIiwiZGlyZWN0b3J5U2VydmljZS5yZWFkd3JpdGUiLCJlc2lnbi5jbGllbnQiLCJlc2lnbi5wcm92aWRlciIsImhlYWx0aEluc3VyYW5jZS5oaXMiLCJodWlmdUNvbm5lY3Rvci5oaXMiLCJpbnN1cmFuY2VTZXJ2aWNlLmhpcyIsImpvYm1kY29ubmVjdG9yLmJtcyIsImxpbmtlZHguY2xpZW50IiwibWFsbCIsIm1lZGljYXJlLmhpcyIsIm9wZW5QbGF0Zm9ybSIsIm9yZGVyU2VydmljZS5oaXNBY2Nlc3MiLCJwb2ludHNTZXJ2aWNlIl19.f9VeKlN8TStLUxXfspMoOgCL6A7A3jNoW4pmbAh8YSEKj-Qatk-JZosS7dhfhR-ygsKuWvd0jezp617p2XuFwy8CtW3970BJSTrDZ2iplhMDV3Hf2JH3kUo-wD4gtM4UYQVv5UD62EYWX-ac9q2BmzWTF9PWwpkc6SAmb1-TK0C8CmQS4MaxV6_GHAkr3GKnT3Rd0NlAh11Bxk-FMUzQiUmUlrHIVafioq91FjMrV2Yo2Cfj0l0ilP6IsKFXOTOTjdNfdxXECIVkFx_d0h6LxUp8WdHZg2EnnGCJ4GqelOWVKMVGmiUP5Cc7hCCh84VQer0oHmxyuPO8FdfV5syLUw
+# @timestamp: 2020-10-22 15:27:34
+# @Content-Type: application/json
+# Body
+# {
+#                 "serviceSn":"319042514472975171398",
+#                 "serviceStatus":"11",
+#                "reviewName":"yexiao",
+#                 "reviewTime":"2019-04-25 15:07:17",
+#                 "refundAmount":"123.11"
+#             }
+
+
+# status 200
+
+@Access-Control-Allow-Origin: *
+@Access-Control-Allow-Methods: POST, GET, OPTIONS
+@Access-Control-Max-Age: 3600
+@Access-Control-Allow-Headers: x-requested-with,Authorization
+@Access-Control-Allow-Credentials: true
+@Content-Type: text/html;charset=UTF-8
+@Content-Length: 78
+@Date: Thu, 22 Oct 2020 07:27:34 GMT
+
+{"msg":"更新成功!","code":"A0000","data":"123.11","refundAmount":"123.11"}
